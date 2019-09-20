@@ -10,6 +10,9 @@ namespace Hello_git_project
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello Word");
+            Console.WriteLine("Er az első github repositom vagy mi");
+            Console.ReadKey();
         }
     }
 }
