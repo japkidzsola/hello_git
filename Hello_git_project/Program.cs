@@ -23,9 +23,11 @@ namespace Hello_git_project
                 
             }
             int max = Lista.Max();
+            int min = Lista.Min();
 
 
             Console.WriteLine("A legnagyobb értékű szám:  " + max);
+            Console.WriteLine("A legkissebb értékű szám:  " + min);
             Console.ReadKey();  
         }
     }
