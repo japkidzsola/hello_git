@@ -12,7 +12,10 @@ namespace Hello_git_project
         {
             int szam = 0;
             List<int> Lista = new List<int>();
-            for (int i = 0; i < 10; i++)
+            int darabszam = 0;
+            Console.WriteLine("Kérem adja meg mennnyi számot tartalmazzon a tömb.");
+            darabszam = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < darabszam; i++)
             {
                 Console.WriteLine("Adja meg a következő számot");
                 szam = Convert.ToInt32(Console.ReadLine());
@@ -22,7 +25,7 @@ namespace Hello_git_project
             int max = Lista.Max();
 
 
-            Console.WriteLine("A legnagyobb értékű szám:" + max);
+            Console.WriteLine("A legnagyobb értékű szám:  " + max);
             Console.ReadKey();  
         }
     }
